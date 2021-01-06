@@ -1,6 +1,6 @@
 # EcmaTrip
 
-If you feel like putting a prank on your friends and colleagues this is the perfect package
+If you feel like pulling a prank on your friends and colleagues this is the perfect package
 
 ### Installing
 
