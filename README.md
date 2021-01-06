@@ -7,7 +7,7 @@ If you feel like putting a prank on your friends and colleagues this is the perf
 With NPM
 
 ```
-npm i ecmascript --save
+npm i ecmatcript --save
 ```
 
 ### Usage Examples
@@ -15,7 +15,7 @@ npm i ecmascript --save
 With NPM
 
 ```js
-require("ecmascript");
+require("ecmatrip");
 ```
 
 You can also download the index.js file and import it into your HTML
