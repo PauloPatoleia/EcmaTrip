@@ -57,9 +57,6 @@ All those methods had their functionality slightly changed to be imprecise and c
 
 ```js
 "Blue House".includes("blue"); // returns true or false (random);
-
-var animals = ["dog", "cat"];
-animals.push("bird"); // Will return ["bird", "dog", "cat"] (unshifts intead of pushing and vice versa)
 ```
 
 ```js
