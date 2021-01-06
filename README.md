@@ -1,10 +1,10 @@
 # EcmaTrip
 
-If you feel like putting a prank on some friends and colleagues this is the perfect package
+If you feel like putting a prank on your friends and colleagues this is the perfect package
 
 ### Installing
 
-Using NPM
+With NPM
 
 ```
 npm i ecmascript --save
@@ -12,7 +12,7 @@ npm i ecmascript --save
 
 ### Usage Examples
 
-Using NPM
+With NPM
 
 ```js
 require("ecmascript");
@@ -20,9 +20,8 @@ require("ecmascript");
 
 You can also download the index.js file and import it into your HTML
 
-```
+```html
 <script type="text/javascript" src="path-to-javascript-file.js"></script>
-
 ```
 
 ## How it works
@@ -60,7 +59,11 @@ All those methods had their functionality slightly changed to be imprecise and c
 "Blue House".includes("blue"); // returns true or false (random);
 
 var animals = ["dog", "cat"];
+animals.push("bird"); // Will return ["bird", "dog", "cat"] (unshifts intead of pushing and vice versa)
+```
 
+```js
+var animals = ["dog", "cat"];
 animals.push("bird"); // Will return ["bird", "dog", "cat"] (unshifts intead of pushing and vice versa)
 ```
 
