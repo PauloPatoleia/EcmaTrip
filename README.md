@@ -66,7 +66,7 @@ animals.push("bird"); // Will return ["bird", "dog", "cat"] (unshifts intead of 
 
 ## Authors
 
-- **Valentino Patoleia** - _Initial work_ - [Valentino](https://github.com/PauloPatoleia)
+- **Valentino Patoleia** - _Initial work_ - [Github](https://github.com/PauloPatoleia)
 
 ## License
 
