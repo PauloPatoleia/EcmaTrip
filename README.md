@@ -61,7 +61,8 @@ All those methods had their functionality slightly changed to be imprecise and c
 
 ```js
 var animals = ["dog", "cat"];
-animals.push("bird"); // Will return ["bird", "dog", "cat"] (unshifts intead of pushing and vice versa)
+animals.push("bird"); // Will return ["bird", "dog", "cat"]
+// (unshifts intead of pushing and vice versa)
 ```
 
 ## Authors
