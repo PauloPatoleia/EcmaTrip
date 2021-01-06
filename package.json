@@ -1,11 +1,19 @@
 {
-  "name": "ecmatrip",
+  "name": "ecmascript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Prank your friend and colleagues",
   "main": "index.js",
+  "keywords": [
+    "troll",
+    "prank"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloPatoleia/EcmaTrip.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Valentino",
-  "license": "ISC"
+  "author": "Valentino Patoleia",
+  "license": "MIT"
 }
