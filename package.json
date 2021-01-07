@@ -1,6 +1,6 @@
 {
   "name": "ecmatrip",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Prank your friends and colleagues by making javascript native methods very unpredictable!",
   "main": "index.js",
   "keywords": [

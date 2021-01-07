@@ -22,6 +22,16 @@ You can also download the index.js file and import it into your HTML
 <script type="text/javascript" src="path-to-javascript-file.js"></script>
 ```
 
+```js
+"Blue House".includes("blue"); // returns true or false (random);
+```
+
+```js
+var animals = ["dog", "cat"];
+animals.push("bird"); // The array will look like: ["bird", "dog", "cat"]
+// (unshifts instead of pushing and vice versa)
+```
+
 ## How it works
 
 This package leverages the power of prototypal inheritance in JavaScript to change the default behavior of native String and Array methods
@@ -50,18 +60,6 @@ Array.prototype.splice;
 ```
 
 All those methods had their functionality slightly changed to be imprecise and create chaos
-
-## Usage examples
-
-```js
-"Blue House".includes("blue"); // returns true or false (random);
-```
-
-```js
-var animals = ["dog", "cat"];
-animals.push("bird"); // The array will look like: ["bird", "dog", "cat"]
-// (unshifts instead of pushing and vice versa)
-```
 
 ## Authors
 
