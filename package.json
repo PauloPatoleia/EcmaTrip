@@ -1,7 +1,7 @@
 {
   "name": "ecmatrip",
-  "version": "1.0.6",
-  "description": "Prank your friends and colleagues",
+  "version": "1.0.7",
+  "description": "Prank your friends and colleagues by making javascript native methods very unpredictable!",
   "main": "index.js",
   "keywords": [
     "troll",
