@@ -4,7 +4,7 @@ If you feel like pulling a prank on your friends and colleagues this is the perf
 
 ### Installing
 
-Install it onto a project that a friend or colleague are working on and watch them cry outload trying to debug it :D
+Install it onto a project that a friend or colleague are working on and watch them cry out loud trying to debug it :D
 
 ```
 npm i ecmatcript --save
