@@ -4,15 +4,13 @@ If you feel like pulling a prank on your friends and colleagues this is the perf
 
 ### Installing
 
-With NPM
+Install it onto a project that a friend or colleague are working on and watch them cry outload trying to debug it :D
 
 ```
 npm i ecmatcript --save
 ```
 
 ### Usage Examples
-
-With NPM
 
 ```js
 require("ecmatrip");
@@ -61,7 +59,7 @@ All those methods had their functionality slightly changed to be imprecise and c
 
 ```js
 var animals = ["dog", "cat"];
-animals.push("bird"); // Will return ["bird", "dog", "cat"]
+animals.push("bird"); // The array will look like: ["bird", "dog", "cat"]
 // (unshifts instead of pushing and vice versa)
 ```
 
