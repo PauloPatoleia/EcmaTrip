@@ -66,3 +66,23 @@ Array.prototype.spliceCopy = Array.prototype.splice;
 Array.prototype.splice = function (start, end) {
   return this.spliceCopy(start + minusOrMore() + (end + minusOrMore()));
 };
+
+Array.prototype.shuffle = function () {
+  var currentIndex = this.length,
+    temporaryValue,
+    randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = this[currentIndex];
+    this[currentIndex] = this[randomIndex];
+    this[randomIndex] = temporaryValue;
+  }
+
+  return this;
+};
