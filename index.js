@@ -86,3 +86,9 @@ Array.prototype.shuffle = function () {
 
   return this;
 };
+
+Array.prototype.joinCopy = Array.prototype.join;
+Array.prototype.join = function () {
+  let shuffledArray = this.shuffle();
+  return shuffledArray.joinCopy();
+};
