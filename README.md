@@ -55,6 +55,7 @@ Array.prototype.unshift;
 Array.prototype.push;
 Array.prototype.slice;
 Array.prototype.splice;
+Array.prototype.join;
 
 // More will be added in the future
 ```
